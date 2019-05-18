@@ -1,9 +1,9 @@
 def selects_all_female_bears_return_name_and_age
-  "Write your SQL query here"
+  "SELECT bears.name, bears.age FROM bears WHERE gender='F';"
 end
 
 def selects_all_bears_names_and_orders_in_alphabetical_order
-  "Write your SQL query here"
+  "SELECT bears.name from bears order by bears.name asc;"
 end
 
 def selects_all_bears_names_and_ages_that_are_alive_and_order_youngest_to_oldest
@@ -29,3 +29,4 @@ end
 def selects_bear_that_killed_Tim
   "Write your SQL query here"
 end
+"SELECT bears.name FROM bears ORDER BY bears.name ASC;"
